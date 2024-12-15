@@ -1,0 +1,231 @@
+/*******GENERAL*******/
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+h1, h2, h3{
+    font-family: serif;
+}
+h1{
+    font-size: 40px;
+}
+/*******HEADER*******/
+header{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(228,125,132,0.4), rgba(91,140,130,0.8)), url(../img/Treehouse_3.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 50% 100%, 0 65%);
+    background-attachment: fixed;
+}
+header img{
+    display: block;
+    margin: 100px auto;
+    width: 250px;
+}
+nav{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.596);
+    /* background-color: rgba(255, 255, 255, 0.459); */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 50px;
+}
+nav ul{
+    text-align: center;
+    padding: 15px;
+}
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s color;
+}
+nav a:hover{
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.76); */
+}
+
+header h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+/*******ABOUT*******/
+.o-nas h1{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.o-nas img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.o-nas p{
+    width: 80%;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+/*******BASIC-INFORMATION*******/
+.basic-information{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(228,125,132,0.4), rgba(91,140,130,0.8)), url(../img/Treehouse_3.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 0, 100% 35%, 100% 100%, 0 100%, 0 35%);
+    background-attachment: fixed;
+}
+
+.basic-information-photos{
+    padding-top: 400px;
+}
+
+.basic-information-photos img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.basic-information-photos p{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/*******FOOTER*******/
+footer{
+    color: white;
+    background: rgb(62, 101, 90);
+    text-align: center;
+}
+
+/*******SLUŽBY*******/
+.services h1{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.services img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+.services ul{
+    width: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    background: black;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.sluzby-informace li {
+    list-style-type: none;
+}
+
+/*******CENÍK*******/
+.pricing{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(228,125,132,0.4), rgba(91,140,130,0.8)), url(../img/Treehouse_3.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 50% 100%, 0 65%);
+    background-attachment: fixed;
+    padding: 30px;
+}
+.pricing h1{
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+.pricing h3{
+    margin-top: 30px;
+    text-align: center;
+}
+.pricing table{
+    /*Pozadí bude černé...*/
+    background-color: black;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.pricing table td, th{
+    padding: 10px 15px;
+    /*...Ale buňky budou bílé. Díky cellspacing se vytvoří černá mřížka*/
+    background-color: white;
+
+}
+/*******KONTAKTY*******/
+.contact{
+    text-align: center;
+    padding: 30px;
+}
+.contact form{
+    background-color: darkcyan;
+    border-radius: 15px;
+    width: 250px;
+
+    /*Zarovnání na střed*/
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+    padding: 15px;
+}
+.contact form input, textarea, button{
+    border-radius: 15px;
+    margin: 5px 0;
+    padding: 3px;
+    border: none;
+    width: 200px;
+    border: 1px solid black;
+}
+.contact form input::placeholder{
+    text-align: center;
+}
+
+.last-polygon {
+    width: 100%;
+    height: 60vh; /*Pro menší výšku*/
+    background: linear-gradient(rgba(228,125,132,0.4), rgba(91,140,130,0.8)), url(../img/Treehouse_3.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 0, 100% 35%, 100% 100%, 0 100%, 0 35%);
+    background-attachment: fixed;
+}
